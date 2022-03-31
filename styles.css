@@ -3,6 +3,34 @@ body{
     margin: 0;
 }
 
+/* link colors */
+#twitch a:link { text-decoration: none;
+color: purple;}
+#twitch a:visited { text-decoration: none; 
+color: purple;}
+#twitch a:hover { text-decoration: none;
+color: purple;}
+#twitch a:active { text-decoration: none;
+color: purple;}
+
+#twitter a:link { text-decoration: none;
+color: lightskyblue;}
+#twitter a:visited { text-decoration: none; 
+color: lightskyblue;}
+#twitter a:hover { text-decoration: none;
+color: lightskyblue;}
+#twitter a:active { text-decoration: none;
+color: lightskyblue;}
+
+#youtube a:link { text-decoration: none;
+color: red;}
+#youtube a:visited { text-decoration: none; 
+color: red;}
+#youtube a:hover { text-decoration: none;
+color: red;}
+#youtube a:active { text-decoration: none;
+color: red;}
+
 /* header */
 .container{
     display: flex;
@@ -11,15 +39,17 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
     color: white;
+    padding-bottom: 82px;
 }
 
 .head{
     font-size: 24px;
     font-weight: 600;
+    padding-right: 100px;
 }
 
 .header_list{
@@ -28,6 +58,7 @@ body{
     gap: 26px;
     font-weight: 300;
     padding: 0;
+    padding-left: 100px;
 }
 
 /* top */
@@ -37,9 +68,37 @@ body{
     align-items: center;
     background-color: #1F2937;
     color: white;
+    padding-bottom: 100px;
 }
 
 .big_subtext{
-    flex-wrap: wrap;
-    width: 300px;
+    width: 350px;
+}
+
+.big{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sign_up,.subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign_up{
+    background-color: rgb(255, 84, 84);
+    border-radius: 6px;
+    padding: 6px 24px;
+    border: 0;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.hero_image{
+    display: flex;
+}
+
+#top_xqc{
+    height: 275px;
+    width: 450px;
 }
