@@ -31,6 +31,26 @@ color: red;}
 #youtube a:active { text-decoration: none;
 color: red;}
 
+.sign_up a:link { text-decoration: none;
+color: #e5e7eb;}
+.sign_up a:visited { text-decoration: none; 
+color: #e5e7eb;}
+.sign_up a:hover { text-decoration: none;
+color: #e5e7eb;}
+.sign_up a:active { text-decoration: none;
+color: #e5e7eb;}
+
+#sign_up a:link { text-decoration: none;
+color: #e5e7eb;}
+#sign_up a:visited { text-decoration: none; 
+color: #e5e7eb;}
+#sign_up a:hover { text-decoration: none;
+color: #e5e7eb;}
+#sign_up a:active { text-decoration: none;
+color: #e5e7eb;}
+
+
+
 /* header */
 .container{
     display: flex;
@@ -180,12 +200,12 @@ img,.info{
 #title_text{
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #e5e7eb;
 }
 
 .text{
-    font-weight: 300;
-    color: white;
+    font-weight: 400;
+    color: #e5e7eb;
 }
 
 #sign_up{
@@ -197,4 +217,15 @@ img,.info{
     font-weight: bold;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+/* foot */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937 ;
+    color: #e5e7eb;
+    padding: 30px;
 }
