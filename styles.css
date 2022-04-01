@@ -141,3 +141,28 @@ img,.info{
     font-weight: 300;
 }
 
+/* bottom */
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    padding: 100px;
+    padding-bottom: 0px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.bottom{
+    background-color: #e5e7eb;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    padding-right: 390px;
+    padding-bottom: 84px;
+    padding-top: 16px;
+    font-weight: bold;
+}
