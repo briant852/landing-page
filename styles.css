@@ -166,3 +166,35 @@ img,.info{
     padding-top: 16px;
     font-weight: bold;
 }
+
+/* box */
+.box{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 84, 84);
+    margin: 80px 200px;
+    border-radius: 8px;
+    padding: 40px 30px;
+}
+
+#title_text{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.text{
+    font-weight: 300;
+    color: white;
+}
+
+#sign_up{
+    background-color: rgb(255, 84, 84);
+    border-radius: 6px;
+    padding: 6px 24px;
+    border: solid;
+    border-width: 2px;
+    font-weight: bold;
+    color: #e5e7eb;
+    font-size: 18px;
+}
