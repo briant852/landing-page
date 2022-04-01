@@ -102,3 +102,42 @@ color: red;}
     height: 275px;
     width: 450px;
 }
+
+/* middle */
+
+.mid_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 48px;
+}
+
+
+.cards{
+    display: flex;
+    padding-bottom: 114px;
+    justify-content: center;
+    align-items: center;
+}
+
+img,.info{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.info{
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.card{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    font-weight: 300;
+}
+
